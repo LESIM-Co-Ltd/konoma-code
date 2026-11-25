@@ -8,7 +8,7 @@ repository.workspace = true
 description = "Syntax highlighting for konoma: syntect with the two-face syntax set, grammar resolution from file names, tab expansion"
 
 [dependencies]
-konoma-base = { path = "../konoma-base", version = "0.1.0" }
+konoma-base = { version = "0.1.0" }
 ratatui.workspace = true
 # Pure-Rust syntect (fancy-regex, no oniguruma) with the bat-derived extended syntax set from
 # two-face: distribution stays easy (PRD §5) and TypeScript/TOML/Dockerfile and more are covered.
@@ -17,4 +17,4 @@ two-face.workspace = true
 unicode-width.workspace = true
 
 [dev-dependencies]
-konoma-test-support = { path = "../konoma-test-support" }
+konoma-test-support = { version = "0.1.0" }

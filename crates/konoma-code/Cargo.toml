@@ -9,7 +9,7 @@ description = "konoma's code plugin: source and config files shown as text color
 
 [dependencies]
 konoma-code-core = { path = "../konoma-code-core", version = "0.1.0" }
-konoma-plugin = { path = "../konoma-plugin", version = "0.1.0" }
+konoma-plugin = { version = "0.1.0" }
 ratatui.workspace = true
 
 [features]
@@ -20,7 +20,7 @@ default = ["app"]
 app = ["konoma-plugin/app"]
 
 [dev-dependencies]
-konoma-test-support = { path = "../konoma-test-support" }
+konoma-test-support = { version = "0.1.0" }
 
 [[bin]]
 name = "konoma-code"
